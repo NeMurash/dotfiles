@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-~/bin/choice ~/misc/quotes.txt | cowsay -f tux
+~/bin/choice ~/misc/quotes.txt | cowsay -f ~/misc/cows/penger.cow
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
