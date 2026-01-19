@@ -1,11 +1,11 @@
 # So I don't lose my precious files ^_^
 
-# Dependencies or something:
+## Dependencies or something:
 - cowsay
 - fzf
 
-## https://github.com/be5invis/Iosevka
-The font I use in the terminal
+## The font I use in the terminal
+https://github.com/be5invis/Iosevka
 
-## https://github.com/tomasr/molokai
-The theme I use for vim
+## The theme I use for vim
+https://github.com/tomasr/molokai
