@@ -17,7 +17,19 @@ fcd() {
 	cd $(fzf --walker=dir)
 }
 
+hcd() {
+	cd ~
+	cd $(fzf --walker=dir)
+}
+
 fccd() {
+	clear
+	cd $(fzf --walker=dir)
+	ls -al --color=auto .
+}
+
+hccd() {
+	cd ~
 	clear
 	cd $(fzf --walker=dir)
 	ls -al --color=auto .
