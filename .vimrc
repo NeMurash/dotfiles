@@ -15,3 +15,11 @@ set nu rnu
 set scrolloff=2
 
 set mouse=a
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
