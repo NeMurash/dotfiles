@@ -17,7 +17,6 @@ set scrolloff=2
 set mouse=a
 
 inoremap " ""<left>
-inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
